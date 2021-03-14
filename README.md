@@ -1,4 +1,4 @@
-# piotr-projekt
+# Baseball Comparison Website
 
 ## Build Setup
 
