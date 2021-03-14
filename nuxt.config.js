@@ -11,7 +11,7 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap' }
     ]
   },
 
@@ -36,6 +36,8 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    // Google Fonts
+    '@nuxtjs/google-fonts'
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios

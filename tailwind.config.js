@@ -11,7 +11,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   variants: {
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
   purge: {
     mode: "layers",
     enabled: process.env.NODE_ENV === 'production',
