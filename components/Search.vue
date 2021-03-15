@@ -6,14 +6,16 @@
                 <form>
                     <div class="mb-10">
                         <label
-                            class=""
+                            class="font-bold"
                             >Search baseball player:
                         </label>
                         <input 
+                            
                             id="baseballPrim"
                             type="text"
-                            class=" border border-gray-300 shadow-md hover:shadow-lg"
+                            class=" border border-gray-300 shadow-md hover:shadow-lg rounded-lg"
                         >
+                        <h2> {{  }} </h2>
                     </div>
                 </form>
                 <div class="">
@@ -22,7 +24,9 @@
                         >Show me the
                             <!-- Number of Comparers Selected -->
                             <div class="relative inline-flex mb-5">
-                                <select class="border border-gray-300 rounded-xl text-gray-600 h-10 pl-5 pr-10 bg-white hover:border-gray-400 focus:outline-none appearance-none">
+                                <select 
+                                    class="border border-gray-300 rounded-xl text-gray-600 h-10 pl-5 pr-10 bg-white hover:border-gray-400 focus:outline-none appearance-none"
+                                    >
                                     <option>3</option>
                                     <option>4</option>
                                     <option>5</option>
@@ -34,9 +38,10 @@
                         players, that are most
                             <!-- Similar/Unsimilar -->
                             <div class="relative inline-flex mb-5">
-                                <select class="border border-gray-300 rounded-xl text-gray-600 h-10 pl-5 pr-10 bg-white hover:border-gray-400 focus:outline-none appearance-none">
+                                <select 
+                                    class="border border-gray-300 rounded-xl text-gray-600 h-10 pl-5 pr-10 bg-white hover:border-gray-400 focus:outline-none appearance-none">
                                     <option>similar</option>
-                                    <option>unsimilar</option>
+                                    <option>dissimilar</option>
                                 </select>
                             </div>
                         to the current selected player.
@@ -50,6 +55,9 @@
                             >Statistics Available Here
                         </NuxtLink>
                     </div>
+
+                    <div class="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -61,14 +69,14 @@ export default {
     
     data() {
         return {
-
+            
         }
     },
 
-
     methods: {
 
-    },
+        
+    }
 
 }
 </script>
